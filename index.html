@@ -1,11 +1,147 @@
-<html>
-  <head>
-    <title>Menambahkan index.html</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-  <body>
-    <h1>lorem ipsum 1234567890</h1>
-  </body>
-  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <div>
+
+    <!-- Kontrol Text -->
+    <h2>Demo membuat Kontrol Text</h2>
+    <form>
+      Nama : <br>
+      <input type="text" name="txtNama" size="30"><br>
+      Alamat : <br>
+      <input type="text" name="txtAlamat" size="50"><br>
+      No. Telepon : <br>
+      <input type="text" name="txtTelepom" size="20">
+      <br>
+      <p><input type="submit" value="Submit" /></p>
+    </form>
+    <hr>
+
+    <!-- Text Area -->
+    <h2>Demo Membuat Kontrol Text Area</h2>
+    <p>Silahkan isi komentar anda tentang situs ini</p>
+    <form>
+      Nama : <br>
+      <input type="text" name="txtNama" size="30"><br>
+      Email : <br>
+      <input type="text" name="txtNama" size="50"><br>
+      komentar : <br>
+      <textarea name="komentar" id="" cols="40" rows="4"></textarea>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <hr>
+
+    <!-- Radiobutton -->
+    <h2>Demo Membuat Kontrol Radio</h2>
+    <div class="radio">
+      <form>
+        Nama : <br>
+        <input type="txtNama" size="30">
+        <br>
+        Jenis Kelamin : <br>
+        <input type="radio" name="gender" value="0">Pria
+        <input type="radio" name="gender" value="0">Wanita
+        <br>
+        Status Pernikahan : <br>
+        <input type="radio" name="status" value="L">Lajang
+        <input type="radio" name="status" value="M">Menikah
+        <input type="radio" name="status" value="D">Duda
+        <input type="radio" name="status" value="J">Janda
+      </form>
+      <hr>
+    </div>
+
+    <!-- Checkbox -->
+    <h2>Demo Membuat Kontrol Checkbox</h2>
+    <form>
+      <p>Game yang Anda sukai :</p>
+      <input type="checkbox" name="merk[]" value="0">Minecraft <br>
+      <input type="checkbox" name="merk[]" value="1">Mobile Legends <br>
+      <input type="checkbox" name="merk[]" value="2">Genshin Impact <br>
+      <input type="checkbox" name="merk[]" value="3">Valorant <br>
+      <input type="checkbox" name="merk[]" value="4">Free Fire <br>
+      <input type="checkbox" name="merk[]" value="5">PUBG <br><br>
+      <input type="checkbox" name="merk[]" value="6">Lain-lain <br>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <hr>
+
+    <!-- Listbox -->
+    <h2>Demo Membuat Kontrol Listbox</h2>
+    <form>
+      <p>Game yang Anda sukai :</p>
+      <select name="game" size="7">
+        <option value="0">Minecraft <br>
+        <option value="1">Mobile Legends <br>
+        <option value="2">Genshin Impact <br>
+        <option value="3">Valorant <br>
+        <option value="4">Free Fire <br>
+        <option value="5">PUBG <br><br>
+        <option value="6">Lain-lain <br>
+      </select>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <hr>
+
+    <!-- Combobox -->
+    <h2>Demo Membuat Kontrol Combobox</h2>
+    <form>
+      <p>Game yang Anda sukai :</p>
+      <select name="game" size="1">
+        <option value="0">Minecraft <br>
+        <option value="1">Mobile Legends <br>
+        <option value="2">Genshin Impact <br>
+        <option value="3">Valorant <br>
+        <option value="4">Free Fire <br>
+        <option value="5">PUBG <br><br>
+        <option value="6">Lain-lain <br>
+      </select>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <hr>
+
+    <!-- Password -->
+    <h2>Demo Membuat Kontrol Password</h2>
+    <form>
+      Username :
+      <input type="text" name="username" size="25"> <br>
+      Password :
+      <input type="password" name="password" size="25"> <br>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <hr>
+
+    <!-- Kontrol Reset -->
+    <h2>Demo Membuat Kontrol Reset</h2>
+    <form>
+      Nama :
+      <input type="text" name="nama" size="25"> <br>
+      Alamat :
+      <input type="text" name="alamat" size="25"> <br>
+      Jenis Kelamin :
+      <select name="gender" size="1">
+        <option value="0">Pria</option>
+        <option value="1">Wanita</option>
+      </select>
+      <p>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </p>
+    </form>
+  </div>
+
+</body>
+
 </html>

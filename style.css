@@ -1,8 +1,31 @@
-body {
-  background-color: aqua;
-  margin: 0;
+*, html {
+  font-family: 'Poppins';
+  color: #0f3460;
 }
 
-h1 {
-  color: yellow;
+div {
+  margin-left: 10px;
+}
+
+input:focus{
+  border: 2px solid #0f3460;
+  outline: none;
+  transition: .1s;
+  background-color: #e9f1fc;
+}
+
+input {
+  border: none;
+  border: 2px solid #0f3460;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+form p input:hover {
+  background-color: #0f3460;
+  color: white;
+  transition: .2s;
+  box-shadow: 3px 3px 5px 0px rgba(15,52,96,0.75);
+-webkit-box-shadow: 3px 3px 5px 0px rgba(15,52,96,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(15,52,96,0.75);
 }
